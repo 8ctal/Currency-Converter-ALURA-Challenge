@@ -1,0 +1,1 @@
+En este repositorio encontramos una aplicación Java que permite cambiar unas divisas por otras, utilizando la siguiente API: " https://www.exchangerate-api.com/ ". El proyecto utiliza la librería Gson y Java JDK 21
