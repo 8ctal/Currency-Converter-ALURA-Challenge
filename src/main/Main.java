@@ -24,6 +24,7 @@ public class Main {
             System.out.println("Divisa no encontrada " + e.getMessage());
         } catch (RuntimeException e) {
             System.out.println(e.getMessage());
+        } finally {
             System.out.println("Finalizando la aplicación.");
         }
 
