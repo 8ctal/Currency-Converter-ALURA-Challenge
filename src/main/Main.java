@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Ahora a la que desea cambiar Ej: USD,COP:");
         var toCurrency = scanner.nextLine();
         try {
-            System.out.println("Ingrese el valor a cambiar:");
+            System.out.println("Ingrese el valor a cambiar!:");
             double amount = Double.parseDouble(scanner.nextLine());
             ExchangerAPI exchangerAPI = request.requestRates(fromCurrency);
             System.out.println(exchangerAPI);
